@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*清除默认样式*/
+body,div,ul,h2,h3,p{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+/*清除浮动*/
+.clearfix{
+	zoom:1;}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;}
+	
+/*头部*/
+header{height:56px; background:#1f2229;}
+#h-wrap{width:1066px; margin:0 auto;}
+header ul{}
+header li{width:115px; float:left; height:56px;   border-right:1px dotted #2f3238; line-height:56px; text-align:center;}
+.first-li{width:115px; background:url(../img/h-logo.png) 13px 10px no-repeat; padding-left:254px;}
+.last-li{border:none;}
+header a{text-decoration:none; color:#b6bac1;}
+header a:hover{color:#ff9c00;}
+
+/*banner*/
+#banner{height:539px; background:url(../img/bg1.gif) no-repeat; border-top:1px solid #f49d1b;}
+#banner img{width:856px; height:372px; margin:110px auto 57px;display:block;}
+
+/*wrap*/
+#wrap{width:998px;margin:0px auto;}
+
+/*关于我们*/
+#aboutUs{height:535px; color:#727272; background:#f4f4f4; border-top:1px solid #f4f4f4;}
+.header{ font-size:16px; height: 22px;  padding-top:42px; margin:38px auto 10px; }
+.line{display:inline-block;  height:2px;}
+.dot{display:inline-block;width:5px; height:5px; border-radius:50%;   }
+.about{background:url(../img/aboutUs.png) 73px 0 no-repeat;width:330px;}
+.about .line{width:88px;border-top:1px solid #b4b4b6;}
+.about .dot{background:#b4b4b6;border:1px solid #b4b4b6; }
+.txt{display:inline-block;padding-left:5px; padding-right:5px;}
+#aboutUs h2{font-size:24px; font-weight:normal;margin:10px auto; width:552px; height:30px;}
+#aboutUs p{font-size:14px;font-weight:normal;margin:10px auto; width:792px; height:20px; text-indent:2em; margin-bottom:58px;}
+
+#aboutUs ul{width:906px; margin:0 auto; }
+#aboutUs li{float:left; width:150px; margin-right:102px;}
+#aboutUs .last-li{margin-right:0;}
+#aboutUs li h3, #aboutUs li span{width:150px; }
+#aboutUs li h3{text-align:center;font-size:24px;}
+#aboutUs li span{ display:block;font-size:12px;text-align:center; padding:5px;}
+
+
+/*成功案例*/
+#successCase{height:614px; background:#0276b9; border:1px solid #0276b9; color:#fff;}
+.success{background:url(../img/success.png) 73px 0 no-repeat;width:386px;}
+#successCase .line{width:139px; border-top:1px solid #fff;}
+#successCase .dot{border:1px solid #fff; background:#fff;}
+#successCase h2{font-size:21px; font-weight:normal;margin:10px auto;width:802px; height:24px;}
+
+#successCase ul{width:992px; height:324px; margin:23px auto 0;}
+#successCase li{margin:0 12px 12px 0 ; width:236px; height:150px; float:left;}
+#successCase img{width:236px; height:150px;}
+#successCase input{display:block;width:82px; height:19px; border:1px solid #fff; background:#fff; color:#313131; margin:43px auto 0; border-radius:10px; font-weight:bold;}
+
+/*新闻中心*/
+#newsCenter{height:540px; background:#f4f4f4; border-top:1px solid #f4f4f4;}
+.news{background:url(../img/newsCenter.png) 73px 0 no-repeat;width:386px;}
+.news .line{width:136px;border-top:1px solid #b4b4b6;}
+.news .dot{background:#b4b4b6;border:1px solid #b4b4b6; }
+#newsCenter ul{width:992px; margin:23px auto 0; }
+#newsCenter li{ float:left; width:400px; height:100px;margin:0 0 10px 50px; padding:20px 10px;}
+#newsCenter img{display:inline-block; float:left; margin-right:10px;}
+#newsCenter h3{font-size:15px; color:#292929;}
+#newsCenter p{font-size:14px; color:#292929;}
+a{color:#292929;}
+/*脚部*/
+footer{height:256px; background:#1f2229; border:1px solid #1f2229;}
+footer ul{width:992px; margin:23px auto 0;}
+footer li{float:left;}
+
+.followLi{ width:124px; padding-left:30px;}
+.formLi{width:536px; }
+.contactLi{width:280px; padding-left:10px;}
+
+.followLi p{background:url(../img/T-icon1.png) 10px 0 no-repeat; padding-left:30px; height:30px; color:#fff; font-size:14px; }
+.followLi img{display:block; margin:13px 0  0 10px;}
+
+.formLi p{background:url(../img/T-icon2.png) 10px 5px no-repeat; padding-left:40px; color:#fff; font-size:14px; height:30px; }
+.formLi input{width:166px; height:34px; background:#1d2026; border:1px solid #3b3b43;}
+form{position:relative;}
+.name,.tel,.email,.txt1,.btn{position:absolute;}
+.name{ top:10px; left:10px;}
+.tel{top:49px; left:10px;}
+.email{top:88px; left:10px;}
+.txt1{width:300px; height:114px;background:#1d2026; border:1px solid #3b3b43; top:9px; left:185px;}
+.formLi .btn{width:34px; height:115px; top:10px; left:502px; background:#3baff7; border:1px solid #5dbdf8; color:#fff;}
+
+.contactLi .p1{background:url(../img/T-icon3.png) 10px 5px no-repeat; padding-left:40px; height:30px; color:#fff; font-size:14px;}
+.contactLi p{color:#a0a1a3; font-size:14px; margin-bottom:10px;}
